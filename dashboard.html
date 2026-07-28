@@ -210,14 +210,14 @@ flex-direction:column;
 <div class="sidebar">
 <div>
     <div class="logo">DARCRED</div>
-    <a class="nav-link active">Dashboard</a>
-    <a class="nav-link">Wallet</a>
-    <a class="nav-link">Investments</a>
-    <a class="nav-link">Transactions</a>
-    <a class="nav-link">Settings</a>
+    <a class="nav-link active">לוּחַ מַחווָנִים</a>
+    <a class="nav-link">אַרְנָק</a>
+    <a class="nav-link">השקעות</a>
+    <a class="nav-link">עסקאות</a>
+    <a class="nav-link">הגדרות</a>
 </div>
 
-<div class="logout-btn" onclick="logout()">Logout</div>
+<div class="logout-btn" onclick="logout()">התנתק</div>
 </div>
 
 <div class="main">
@@ -228,44 +228,44 @@ flex-direction:column;
 </button>
 
 <div>
-<div class="account-name">John Miller</div>
-<div class="account-type">Primary Recovery Account</div>
+<div class="account-name">סעדו משה</div>
+<div class="account-type">חשבון ההשקעות הראשי</div>
 </div>
 </div>
 
 <div class="balance" id="balance">$0.00</div>
-<div class="balance-label">Total Balance</div>
+<div class="balance-label">יתרה כוללת</div>
 
 <div class="row mt-4 g-4">
 <div class="col-md-4">
 <div class="card-box">
-<div class="card-title">Actual Deposit</div>
+<div class="card-title">הפקדה בפועל</div>
 <div class="card-value" id="investment">$0.00</div>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="card-box">
-<div class="card-title">Interest</div>
+<div class="card-title">אִינטֶרֶס</div>
 <div class="card-value green" id="profit">$0.00</div>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="card-box">
-<div class="card-title">Withdrawable</div>
+<div class="card-title">ניתן למשיכה</div>
 <div class="card-value blue" id="withdrawable">$0.00</div>
 </div>
 </div>
 </div>
 
 <div class="d-flex gap-3 mt-4">
-<button class="btn-action btn-deposit w-100" onclick="openModal('deposit')">Deposit Funds</button>
-<button class="btn-action btn-withdraw w-100" onclick="openModal('withdraw')">Withdraw Funds</button>
+<button class="btn-action btn-deposit w-100" onclick="openModal('deposit')">כספי הפקדה</button>
+<button class="btn-action btn-withdraw w-100" onclick="openModal('withdraw')">משיכת כספים</button>
 </div>
 
 <div class="mt-5">
-<h5>Recent Activity</h5>
+<h5>פעילות אחרונה</h5>
 <div id="transactions"></div>
 </div>
 
